@@ -11,7 +11,7 @@ toggle.addEventListener('click', (e) => {
     document.body.style.transition = 'background-color 1s, color 1s';
     // circle.style.transform = 'translate(60px)';
     circle.style.transition = 'transform .5s'
-    // circle.style.overflow = 'hidden';
+    circle.style.overflow = 'hidden';
     day.style.visibility = 'visisible';
 })
 
