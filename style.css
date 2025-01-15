@@ -6,11 +6,12 @@
 body {
   height: 100vh;
   background-color: #fff;
+  color: black;
   font-family: "Montserrat", sans-serif;
   transition: 'background-color' 1s, color 1s;
 }
-body.dark-mode{
-    background-color: #333;
+.dark-mode{
+    background-color: black;
     color: #fff;
 }
 #toggle-container {
